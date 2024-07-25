@@ -1,0 +1,23 @@
+.margin{
+    width: 60px;
+    margin: 120px;
+    padding: 0;
+    background-color:#d15c19;
+}
+
+.border{
+    background-color: #e5a685;
+}
+
+.padding{
+    background-color: #469fc7;
+}
+
+.content{
+    background-color: #a0cae0;
+}
+
+body{
+    background-color: #d15c19;
+    
+}
