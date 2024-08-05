@@ -1,10 +1,14 @@
-let numero = prompt(`Ingrese un numero`)
-let suma = 0
+let n = parseInt(prompt(`Ingrese un numero: `));
 
-function sumarN() {
+function sumarN(numero) {
+    let array = [];
+    let suma = 0;
     for ( let i = 1; i <= numero; i++){
+      array.push(i);
       suma += i;
     }
-    console.log(`La suma de los primeros ${numero} números naturales es: ${suma}`)
+    console.log(`los numeros naturales son ${array.join(" - ")}`);
+    return suma;
 }
-sumarN()
+
+console.log(`la suma es: ${sumarN(n)}`)
