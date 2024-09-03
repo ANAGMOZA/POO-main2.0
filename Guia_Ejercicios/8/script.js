@@ -4,6 +4,7 @@ function sumarNumeros() {
     for (let i = 1; i <= 5; i++) {
         let numero = parseInt(prompt(`Ingrese el número ${i}:`));
         suma += numero;
+        console.log(`Valores ingresados ${i}: ${numero}`);
     }
 }
 
